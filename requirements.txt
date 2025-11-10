@@ -1,0 +1,10 @@
+pandas
+pillow
+tqdm
+matplotlib
+tensorboard
+scikit-learn
+torchmetrics
+onnx
+onnxscript
+onnxruntime
