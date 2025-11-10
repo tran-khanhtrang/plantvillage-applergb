@@ -3,12 +3,44 @@
 
 # Bytecode Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# Log files
+# Logs
 logs/
 *.log
 
-# Thêm các file/bản build tạm khác nếu cần
+# Distribution / build
+build/
+dist/
+*.egg-info/
+
+# Installer / package files
+*.whl
+*.egg
+*.tar.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm / VSCode settings
+.idea/
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Archive / compressed files
 *.rar
+*.zip
+*.7z
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# GPU / CUDA specific caches (optional)
+*.pt
+*.pth
