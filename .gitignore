@@ -44,3 +44,6 @@ Thumbs.db
 # GPU / CUDA specific caches (optional)
 *.pt
 *.pth
+
+# Bỏ qua tất cả file .dat lớn
+PlantVillage/**/*.dat
