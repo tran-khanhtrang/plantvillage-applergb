@@ -1,0 +1,14 @@
+# Python virtual environment
+.venv_gpu/
+
+# Bytecode Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Log files
+logs/
+*.log
+
+# Thêm các file/bản build tạm khác nếu cần
+*.rar
