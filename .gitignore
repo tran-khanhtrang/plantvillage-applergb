@@ -1,49 +1,26 @@
-# Python virtual environment
+# Bỏ qua virtual environment
 .venv_gpu/
 
-# Bytecode Python
+# Python bytecode
 __pycache__/
 *.py[cod]
-*$py.class
 
 # Logs
 logs/
 *.log
 
-# Distribution / build
-build/
-dist/
-*.egg-info/
+# Dataset lớn (bỏ qua tất cả file .dat)
+PlantVillage/**/*.dat
 
-# Installer / package files
-*.whl
-*.egg
-*.tar.gz
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# PyCharm / VSCode settings
-.idea/
-.vscode/
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Archive / compressed files
+# Archives / compressed files
 *.rar
 *.zip
 *.7z
 
-# Temporary files
-*.tmp
-*.swp
-*.bak
+# Editor / IDE
+.vscode/
+.idea/
 
-# GPU / CUDA specific caches (optional)
-*.pt
-*.pth
-
-# Bỏ qua tất cả file .dat lớn
-PlantVillage/**/*.dat
+# OS generated files
+.DS_Store
+Thumbs.db
