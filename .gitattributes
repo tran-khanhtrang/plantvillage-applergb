@@ -1,0 +1,7 @@
+# Treat all text files as text and normalize to LF
+* text=auto
+
+# Đặc biệt cho CSV, HDR, TXT
+*.csv text eol=lf
+*.hdr text eol=lf
+*.txt text eol=lf
